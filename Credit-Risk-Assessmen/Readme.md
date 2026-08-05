@@ -205,7 +205,7 @@ Add screenshots here after running the application.
 
 ## 👨‍💻 Developer
 
-**Omni Sharma**
+**Abhay Pratap Rathore**
 
 B.Tech Artificial Intelligence & Machine Learning
 
