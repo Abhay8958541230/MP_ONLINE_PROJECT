@@ -2,9 +2,17 @@
 
 ## 📌 Project Overview
 
-The AI-Based Credit Risk Assessment System is a Machine Learning application developed to estimate the credit risk of loan applicants. The system analyzes applicant information such as income, loan amount, employment status, education, credit history, and property area to classify applicants as **Low Credit Risk** or **High Credit Risk**.
+The **AI-Based Credit Risk Assessment System** is a Machine Learning application developed to estimate the credit risk of loan applicants. The system analyzes applicant information such as income, loan amount, employment status, education, credit history, and property area to classify applicants as **Low Credit Risk** or **High Credit Risk**.
 
-The project uses the **Random Forest Classifier** for prediction and provides an interactive web interface built with **Streamlit**.
+The project uses a **Random Forest Classifier** for prediction and provides an interactive web application built using **Streamlit**.
+
+---
+
+## 🚀 Live Deployment
+
+🌐 **Live Application:** https://mp-online-project-2.onrender.com/
+
+💻 **GitHub Repository:** https://github.com/Abhay8958541230/MP_ONLINE_PROJECT
 
 ---
 
@@ -32,7 +40,7 @@ The project uses the **Random Forest Classifier** for prediction and provides an
 
 **Dataset Name:** Loan Prediction Dataset
 
-The dataset contains information about loan applicants, including:
+The dataset contains the following applicant information:
 
 - Gender
 - Marital Status
@@ -80,74 +88,75 @@ Additional features created:
 - Loan Income Ratio
 - Estimated EMI
 
-These features improve the prediction capability of the model.
+These engineered features improve the prediction capability of the Machine Learning model.
 
 ---
 
 ## 🤖 Machine Learning Model
 
-**Algorithm Used**
+### Algorithm Used
 
 - Random Forest Classifier
 
-### Model Evaluation
+### Model Performance
 
-- Accuracy: **78.86%**
+- **Accuracy:** **78.86%**
 
-The trained model is saved using Joblib for deployment.
+The trained model is saved using **Joblib** and integrated into the Streamlit application for real-time prediction.
 
 ---
 
 ## 💻 Application Features
 
-- User-friendly Streamlit interface
-- Real-time credit risk prediction
+- AI-powered credit risk prediction
+- Interactive Streamlit dashboard
+- Real-time prediction
 - Confidence score display
 - Customer information summary
-- Fast prediction using a trained Machine Learning model
+- Fast and accurate loan assessment
+- User-friendly interface
 
 ---
 
 ## 📁 Project Structure
 
-```
-Credit-Risk-Assessmen/
+```text
+MP_ONLINE_PROJECT/
 │
-├── train.csv
-├── cleaned_train.csv
-│
-├── 01_data_exploration.py
-├── 02_data_preprocessing.py
-├── 03_model_training.py
-├── 04_app.py
-│
-├── credit_model.pkl
-├── label_encoders.pkl
-├── scaler.pkl
-│
-├── requirements.txt
-├── README.md
-├── Project_Report.pdf
-└── Project_Presentation.pptx
+└── Credit-Risk-Assessmen/
+    ├── train.csv
+    ├── cleaned_train.csv
+    ├── 01_data_exploration.py
+    ├── 02_data_preprocessing.py
+    ├── 03_model_training.py
+    ├── 04_app.py
+    ├── credit_model.pkl
+    ├── label_encoders.pkl
+    ├── scaler.pkl
+    ├── requirements.txt
+    ├── runtime.txt
+    ├── README.md
+    ├── AI-Based-Credit-Risk-Assessment-System.pdf
+    └── Credit_Risk_Assessment_Project_Report.docx
 ```
 
 ---
 
 ## ▶️ Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Abhay8958541230/MP_ONLINE_PROJECT.git
 ```
 
-Move into the project folder
+Navigate to the project folder:
 
 ```bash
-cd Credit-Risk-Assessmen
+cd MP_ONLINE_PROJECT/Credit-Risk-Assessmen
 ```
 
-Install dependencies
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -157,25 +166,19 @@ pip install -r requirements.txt
 
 ## ▶️ Running the Project
 
-### Step 1
-
-Run preprocessing
+### Step 1: Data Preprocessing
 
 ```bash
 python 02_data_preprocessing.py
 ```
 
-### Step 2
-
-Train the model
+### Step 2: Train the Model
 
 ```bash
 python 03_model_training.py
 ```
 
-### Step 3
-
-Launch the Streamlit application
+### Step 3: Launch the Streamlit Application
 
 ```bash
 streamlit run 04_app.py
@@ -183,13 +186,17 @@ streamlit run 04_app.py
 
 ---
 
-## 📷 Screenshots
+## ☁️ Deployment
 
-Add screenshots here after running the application.
+This application has been successfully deployed using **Render**.
 
-- Home Page
-- Low Credit Risk Prediction
-- High Credit Risk Prediction
+### Deployment Platform
+
+- Render
+
+### Live Application
+
+🌐 https://<RENDER_URL>.onrender.com
 
 ---
 
@@ -198,8 +205,9 @@ Add screenshots here after running the application.
 - Integration with banking databases
 - Support for multiple Machine Learning algorithms
 - Explainable AI (XAI) using SHAP
-- Cloud deployment
+- Cloud database integration
 - Loan recommendation system
+- Mobile application support
 
 ---
 
@@ -207,7 +215,7 @@ Add screenshots here after running the application.
 
 **Abhay Pratap Rathore**
 
-B.Tech Artificial Intelligence & Machine Learning
+B.Tech – Artificial Intelligence & Machine Learning
 
 VIT Bhopal University
 
@@ -215,4 +223,4 @@ VIT Bhopal University
 
 ## 📄 License
 
-This project is developed for educational purposes.
+This project is developed for educational and learning purposes only.
